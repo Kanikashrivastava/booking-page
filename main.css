@@ -1,0 +1,654 @@
+.nav {
+  background-image: url("https://i1.wp.com/www.travelerslinkafrica.com/wp-content/uploads/2018/02/cheap-flights-entebbe-uganda.gif?fit=703%2C422&ssl=1");
+  height: auto;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-opacity:0.3;
+}
+
+.nav-bar {
+  color: white;
+  font-size: 20px;
+  margin: 20px 50px 20px 50px;
+}
+
+.nav-bar1 {
+  margin: 5% 0vh 0vh 15%;
+}
+
+.nav-bar2 {
+  background: linear-gradient(to top,  #126375 30%,#352c79 50%);
+  width: 80%;
+  border-radius: 0px 40px 0px 40px;
+  height: 100%;
+  padding-top: 2%;
+  padding-left: 2%;
+}
+
+.fa-bars {
+float: right;
+margin-top: -33px;
+}
+
+.icon-bar {
+  width: 40%;
+  background-color: white;
+  overflow: auto;
+  border-radius: 0px 15px 0px 0px;
+}
+
+.hr-ln {
+  border: 1px dashed white;
+  margin-top: 40px;
+}
+
+.icon-bar a {
+  float: left;
+  text-align: center;
+  width: 20%;
+  padding: 6px 0;
+  transition: all 0.3s ease;
+  color: blue;
+  font-size: 30px;
+}
+
+.icon-bar a:hover {
+  background-color: grey;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: black;
+}
+.trip-type {
+  width: 23%;
+  background-color: white;
+  height: 4vh;
+  border-radius:15px;
+  font-weight: bold;
+  font-family: sans-serif;
+  padding-top: 0.5%;
+}
+
+.trip-type p {
+  float: left;
+  /*width: 33%;*/
+  font-size: 12px;
+  text-align: center;
+  transition: all 0.3s ease;
+  overflow: auto;
+  font-weight: bolder;
+}
+
+.user-info {
+  font-weight: bolder;
+  font-size: 10px;
+  font-family: sans-serif;
+}
+
+
+.form-group {
+  width: 15%;
+  float: left;
+  color: #c1b9b9;
+  transition: all 0.3s ease;
+  overflow: auto;
+}
+
+.user-info .form-control {
+  padding: 10px;
+}
+#pwd {
+  padding: 7.5px !important;
+}
+.btn {
+  margin-top: 15%;
+}
+
+
+.promocode {
+  display: flex;
+}
+
+.promocode-right {
+  float: right;
+  width: 40%;
+  margin-right: auto;
+}
+
+.promocode-left {
+  float: left;
+  width: 40%;
+  margin-left: 3%;
+  display: block;
+}
+
+.promocode-text {
+  color: white;
+  float: left;
+  width: 50%;
+  margin-left: -17px;
+}
+
+.promocode-code {
+  margin-left: 60%;
+  width: 23%;
+}
+
+.text {
+  font-size: 10px;
+}
+.surprise {
+  border: 2px dashed #4ca6b9;
+  margin-top: 13px;
+}
+.surprise-head {
+  color: #4ca6b9;
+  font-weight: bolder;
+  font-size: 10px;
+  text-align: center;
+  margin-top: 2px;
+  margin-bottom: auto;
+}
+.surprise-txt {
+  font-size: 11px;
+  color: white;
+  text-align: center;
+  margin-bottom: auto;
+}
+.promocode-hr {
+  color: red;
+  border: 1px solid white;
+  height: 6vh;
+  margin-top: 15px;
+  margin-left: -5px;
+}
+.fa-caret-right {
+  font-size: 48px !important;
+  margin-right: 3%;
+ }
+
+.terms {
+  color: white;
+  font-size: 8px;
+}
+
+.section {
+  display: block;
+  width: 80%;
+  height: 100%;
+  margin: 3% 10% 0% 10%;
+}
+.side-bar {
+  float: left;
+  width: 20%;
+  margin-left: 3%;
+  color: grey;
+}
+.flight-section {
+  float: right;
+  width: 60%;
+  border: 1px solid #c1b8b8b0;;
+  margin-right: 10%;
+  background-color: #c1b8b8b0;
+  padding: 0px 30px 30px 30px;
+}
+.flight-type {
+  display: flex;
+  border: 1px solid #c1b8b8b0;
+  justify-content: space-around;
+}
+.flight-type p {
+  border: 1px solid #c1b8b8b0;
+  padding: 0px 8% 0px 8%;
+  font-size: 12px;
+  margin: 1% ;
+  font-weight: bolder;
+
+}
+.onActive {
+  background-color: blue;
+  color: white;
+  margin-right: 5%;
+}
+.filter {
+  display: flex;
+  justify-content: space-between;
+
+}
+.filter-hr {
+    height: 1px;
+    background-color: #c1b8b8b0;
+    margin-top: -10px;
+}
+.side-bar-no2-component {
+  border: 1px solid #c1b8b8b0;
+  margin-top: 16%;
+  background-color: #c1b8b8b0;
+
+
+}
+.bg-color {
+  background-color: white;
+  padding: 10% 5% 0% 10%;
+  font-size: 13px;
+}
+.price {
+  color: black;
+  padding: 0% 10% 10% 10%;
+  font-weight: bolder;
+
+}
+
+.range {
+  padding-left: 10%;
+  font-weight: bolder;
+  display: inline-flex;
+  font-size: 13px;
+  color: #656565 !important;
+
+}
+.glyphicon-triangle-bottom {
+  float: right;
+  margin-right: 20px;
+}
+.border {
+  border: 1px solid #c1b8b8b0;
+  padding: 3%; 
+  margin-top: 6%;
+  width: 100%;
+}
+.checkbox {
+  float: right;
+  margin-right: 20% !important;
+  padding: 5vh !important;
+}
+.stop {
+  display: inline-flex;
+  flex-grow: 1;
+  border: 1px solid #c1b8b8b0;
+  width: 15%;
+  color: black;
+  padding: 3% 5% 3% 5%;
+  margin: 3% 0% 3% 10%;
+  font-weight: bolder;
+}
+
+.dsply {
+  display: inline-flex;
+  margin-left: 10%;
+  margin-top: 2%;
+  color: black;
+  font-weight: bolder;
+}
+.f-name {
+  margin-left: 8px;
+}
+.bg {
+  background-color: #c1b8b8b0;
+}
+
+.flight-no {
+  background-color: white;
+  border: 1px solid #c1b8b8b0;
+  padding: 0px 2% 3% 2%;
+  color: black;
+  font-weight: bolder;
+}
+.flight-many {
+  float: right;
+  margin-top: -20px;
+  color: black;
+}
+.dt {
+  float: right;
+  color: black;
+  font-weight: bold;
+}
+.flight-dates {
+  display: inline-flex;
+  color: grey;
+  justify-content: space-around;
+  width: 100%
+}
+.each {
+  border: 1px solid #c1b8b8b0;
+  background-color: white;
+  margin-left: 0.5px;
+  width: 20%;
+  text-align: center;
+  padding-top: 10px;
+  cursor: pointer;
+  padding: 1%;
+  font-size: 13px;
+  margin-top: 1%;
+}
+.each p {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.each-hr {
+  margin-top: auto;
+  margin-bottom: 2px;
+  border: 1px solid #c1b8b8b0;
+}
+.fa-caret-left {
+  height: 5%;
+  width: 5%;
+}
+.date-active {
+  background: linear-gradient(to left, #352c79 0%,#126375 100%);
+  color: #f7f6f6b0;
+  font-weight: bold;
+  font-size: 14px;
+}
+.flight-details-title {
+  display: inline-flex;
+  justify-content: space-around;
+  background-color: white;
+  width: 100%;
+  font-size: 17px;
+  font-weight: bolder;
+  margin-top: 15px;
+  padding-top: 4px;
+}
+.air-journey {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: auto;
+}
+.details-depth {
+  background-color: white;
+  margin-top: 1%;
+  padding: 2%;
+}
+
+
+.flight-details {
+  width: 100%;
+  background-color: #ece9e9;
+  display: inline-flex;
+  color: grey;
+  font-weight: bold;
+  font-size: 13px;
+  padding: 5px;
+  margin-top: 10px;
+}
+.f-d {
+  color: red;
+  font-weight: bold;
+  float: left;
+  margin-left: 25%;
+}
+.rs {
+  background-color: black;
+  padding: 7px;
+  margin-left: 15px;
+}
+.flight-detail-fare {
+  display: flex;
+  float: left;
+  border: 2px solid #c1b8b8b0;
+  font-weight: bolder;
+  font-size: 20px;
+  border-radius: 30px;
+  padding: 5px 10px 0px 10px;
+  color: #656363;
+
+}
+.pckg {
+  float: right;
+  color: #656363;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.details-depth-hr {
+  margin-top: auto;
+  margin-bottom: auto;
+  border: 1px solid #c1b8b8b0;
+}
+.detail-head {
+  font-size: 17px;
+  font-weight: bolder;
+  color: #656363;
+}
+.fare-summary-hr {
+  margin-top: 47px;
+  border: 1px solid #c1b8b8b0;
+}
+.plane-company-model {
+  float: right;
+  font-size: 10px;
+  color: grey;
+  
+}
+.air-journey-duration {
+  display: flex;
+  justify-content: space-around;
+}
+.plane-company-model-no {
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  margin-top: -10px;
+  margin-left: 5px;
+}
+.plane-company {
+  padding: 3%;
+}
+.journey-to {
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+  color: grey;
+  padding: 3%;
+}
+.journey-to-time{
+  font-size: 18px;
+  font-weight: bolder;
+  margin-top: -13px;
+  margin-bottom: auto;
+  color: #484747;
+}
+.journey-stop {
+  padding: 2%;
+  text-align: center;
+}
+.devider {
+  border: 1px solid grey;
+  height: 12vh;
+  margin-top: 2%;
+}
+.journey-to-terminal {
+  margin-top: -14px;
+  color: grey;
+}
+.journey-stop-time {
+  color: #484747;
+  font-weight: bolder;
+  font-size: 18px;
+}
+.journey-stop-hr {
+  border: 3px solid #b7aeae;
+  margin-top: -7px;
+  margin-bottom: 4px;
+  border-radius: 15px;
+  width: 100%;
+}
+.plane-company-model-head{
+  font-size: 14px;
+  margin-left: 5px;
+  margin-top: 3px;
+}
+
+.total-journey-duration {
+  display: flex;
+  justify-content: space-between;
+}
+.total-journey-duration-start{
+  border: 2px solid grey;
+  width: 12vw;
+}
+
+.total-journey-duration-txt{
+  border: 1px solid grey;
+  background-color: #c1b8b8b0;
+  color: #656363;
+  text-align: center;
+  font-size: 17px;
+  padding: 1%;
+  font-weight: bolder;
+  width: 30vw;
+}
+.total-journey-duration-end {
+  border: 2px solid grey;
+  width: 12vw;
+}
+.total-journey-duration-txt-time{
+  font-size: 22px;
+  color: #3c3b3b;
+}
+.journey-benefits {
+  display: inline-flex;
+  float: right;
+  margin-top: 2%;
+}
+.journey-benefits-service {
+  font-weight: bolder;
+  color: grey;
+  font-size: 12px;
+  padding: 5px;
+}
+.journey-benefits-hr {
+  border: 1px solid #c1b8b8b0;
+  margin-top: 6%;
+}
+.disclaimar {
+  padding: 1%;
+  font-size: 12px;
+  color: grey;
+  margin-top: -10px;
+}
+.flight-grand-charges-and-warnings {
+  background-color: white;
+  margin-top: 3%;
+  padding: 3%;
+}
+
+
+
+.flight-grand-charges {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -17px;
+}
+
+
+.flight-grand-charges-national {
+  border: 1px solid #c1b8b8b0;
+  margin: 3%;
+  width: 25vw;
+}
+.flight-grand-charges-national-header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #c1b8b8b0;
+  padding: 2.5%;
+}
+.num {
+  color: #0e0e0e;
+  font-size: 14px;
+  font-weight: bolder;
+  margin-top: -7px;
+  margin-bottom: auto;
+}
+.num2 {
+  margin-top: 40%;
+}
+.txt {
+  font-size: 12px;
+}
+.flight-grand-charges-national-body {
+  padding: 2%;
+}
+
+
+.flight-grand-charges-international {
+  border: 1px solid #c1b8b8b0;
+  width: 25vw;
+  margin: 3%;
+  margin-bottom: auto;
+
+}
+.flight-grand-charges-national-body2 {
+  float: right;
+}
+.flight-grand-charges-national-body2-hr {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.paying-amount {
+  font-size: 20px;
+  font-weight: bolder;
+}
+.flight-grand-charges-international-body {
+  padding: 2%;
+
+}
+
+.extra-charges {
+  display: flex;
+  justify-content: space-around;
+}
+.head {
+  width: 40%;
+}
+
+.non-refundable-fares {
+  border: 1px solid #c1b8b8b0;
+  padding: 3%;
+  margin: 3% 3% 0% 3%;
+  height: auto;
+  overflow: scroll;
+}
+.non-refundable-fares li {
+  list-style: none;
+  margin-left: -40px;
+}
+.flight-name {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  margin-top: 3%;
+  padding-bottom: 10%;
+}
+
+.flight-name-email-checkbox {
+  margin-top: 1%;
+  width: 10%;
+  font-weight: bold;
+  color: grey;
+}
+.journey-departure-and-arrival {
+  width: 40%;
+  margin: 2%;
+}
+.price-button {
+  width: 15%;
+  height: 5%;
+  margin-top: 4%;
+  background-color: #126375;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: 18px;
+  padding-top: 5px;
+}
+.dstnc {
+  padding: 8%;
+}
+.strt-end {
+  margin-top: auto;
+}

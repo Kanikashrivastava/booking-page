@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Interview</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+</head>
+<body>
+	<main>
+		<div class="nav">
+			<div class="nav-bar">
+				<p class="logo">B2B FARE</p>
+				<i class="fa fa-bars" aria-hidden="true"></i>
+			</div>
+				<div class="nav-bar1">
+					<div class="icon-bar">
+					  <a class="active" href="#"><i class="fa fa-home"></i></a> 
+					  <a href="#"><i class="fa fa-building"></i></a> 
+					  <a href="#"><i class="fa fa-bus" style="font-size:36px;"></i></a> 
+					  <a href="#"><i class="fa fa-car" style="font-size:36px;"></i></a>
+					  <a href="#"><i class="fa fa-umbrella" style="font-size:36px"></i></a> 
+					</div>
+					<div class="nav-bar2">
+						<div class="trip-type">
+						  <a class="active" href=""><p>One Way | </p></a>
+						  <p>Round Trip | </p>
+						  <p>Multi City</p>
+						</div><br/>
+						<div class="user-info">
+							<div class="form-group">
+							  <p for="FLY FROM">FLY FROM</p>
+							  <input type="text" class="form-control">
+							</div>
+							<div class="form-group">
+							  <p for="FLY TO">FLY TO</p>
+							  <input type="text" class="form-control">
+							</div>
+							<div class="form-group">
+							  <p for="JOURNEY DATE">JOURNEY DATE</p>
+							  <input type="date" class="form-control" id="pwd">
+							</div>
+							<div class="form-group">
+							  <p for="RETURN DATE">RETURN DATE</p>
+							  <input type="date" class="form-control" id="pwd">
+							</div>
+							<div class="form-group">
+							  <p for="TRAVELLERS & CLASS">TRAVELLERS & CLASS</p>
+							  <input type="text" class="form-control">
+							</div>
+							<div class="form-group">
+							  <button type="button" class="btn btn-success">Success</button>
+							</div>
+						</div><br><br/><br/>
+					<hr class="hr-ln" />
+					<div class="promocode">
+						<i class="fa fa-caret-left" style="font-size:48px;"></i>
+						<div class="promocode-left">
+
+							<div class="promocode-text">
+								<p >EPIGGY5P</p>
+								<p class="text">Get 5% ePiggy Cash on every Internatinal flight booking</p>
+							</div>
+							<div class="promocode-code">
+								<div class="surprise">
+									<p class="surprise-head">PROMOCODE</p>
+									<p class="surprise-txt">EPIGGY5P</p>
+								</div>
+								<p class="terms">Terms & conditions</p>
+							</div>
+						</div>
+						<hr class="promocode-hr " />
+						<div class="promocode-right">
+							<div class="promocode-text">
+								<p>EPIGGY5P</p>
+								<p class="text">Get 5% ePiggy Cash on every Internatinal flight booking</p>
+							</div>
+							<div class="promocode-code">
+								<div class="surprise">
+									<p class="surprise-head">PROMOCODE</p>
+									<p class="surprise-txt">EPIGGY5P</p>
+								</div>
+								<p class="terms">Terms & conditions</p>
+							</div>
+								
+						</div>
+						<i class="fa fa-caret-right" ></i>
+					</div>					
+				</div>
+			</div>
+		</div>
+		<!-- -------------------------------------** main body **---------------------------------------------- -->
+		<div class="section">
+			<div class="side-bar">
+				<div class="flight-type">
+					<p class="onActive">ONWORDS</p>
+					<p>RETURN</p>
+				</div>
+				<div class="side-bar-no2-component">
+					<div class="filter bg-color">
+						<p>FILTERS</p>
+						<p>RESET ALL</p>
+					</div>
+					<hr class="filter-hr" />
+					<div>
+						<p class="range">PRICE RANGE</p>
+						<span class="glyphicon glyphicon-triangle-bottom"></span>
+					</div>
+					<div class="filter">
+						<p class="price">$ 499</p>
+						<p class="price">$ 964,499</p>
+					</div>
+				</div>
+				<div class="border">
+					<div>
+						<span class="range">FARE TYPE</span>
+						<span class="glyphicon glyphicon-triangle-bottom"></span>
+						<br/><br/>
+					</div>
+					<div>
+						<span class="price">Refundable</span>
+						<input class="checkbox" type="checkbox"><br/>
+					</div>
+					<div>
+						<span class="price">Non Refundable</span>
+						<input class="checkbox" type="checkbox"><br/>
+					</div>
+				</div>
+				<div class="border">
+					<div>
+						<span class="range">STOPS</span>
+						<span class="glyphicon glyphicon-triangle-bottom"></span>
+					</div>
+					<div>
+						<p class="stop price"> 0 </p>
+						<p class="stop"> 1 </p>
+						<p class="stop"> +1 </p>
+					</div>
+				</div>
+				<div  class="border bg">
+					<div>
+						<span class="range">AIRLINES</span>
+						<span class="glyphicon glyphicon-triangle-bottom"></span>
+					</div>
+					<div  class="dsply">
+						<input type="checkbox"><br/>
+						<span class="f-name">Vistara</span>
+					</div><br/>
+					<div class="dsply">
+						<input type="checkbox"><br/>
+						<span class="f-name">AirIndia</span>
+					</div><br/>
+					<div class="dsply">
+						<input type="checkbox"><br/>
+						<span class="f-name">Indigo</span>
+					</div><br/>
+					<div class="dsply">
+						<input type="checkbox"><br/>
+						<span class="f-name">Jet Airways</span>
+					</div><br/>
+					<div class="dsply">
+						<input type="checkbox"><br/>
+						<span class="f-name">GoAir</span>
+					</div><br/>
+					<div class="dsply">
+						<input type="checkbox"><br/>
+						<span class="f-name">SpiceJet</span>
+					</div>
+
+				</div>
+			</div>
+			</div>
+			<!-- -------------------------------------**main section**---------------------------------------------- -->
+			<div class="flight-section">
+				<div class="flight-no">
+					<div>
+						<i class="fa fa-plane"></i>
+						<span>Found 249 flight</span>
+					</div>
+					<div  class="flight-many">
+						<span>New Delhi </span>
+						<i class="fa fa-exchange"></i>
+						<span>Mumbai</span>
+					</div>
+					<p class="dt">Tue, 18 sep</p>
+				</div>
+
+				<div class="flight-dates">
+					<div class="each">
+						<i class="fa fa-caret-left" style="font-size:48px"></i>
+					</div>
+					<div class="each">
+						<p>Wed, 18 sep</p>
+						<hr class="each-hr"/>
+						<p>7,936</p>
+					</div>
+					<div class="each">
+						<p>Thu, 19 sep</p>
+						<hr class="each-hr" />
+						<p>7,936</p>
+					</div>
+					<div class="each">
+						<p>Fri, 20 sep</p>
+						<hr class="each-hr"/>
+						<p>7,936</p>
+					</div>
+					<div class="each date-active">
+						<p>Sat, 21 sep</p>
+						<hr class="each-hr"/>
+						<p>7,936</p>
+					</div>
+					<div class="each">
+						<p>Sun, 22 sep</p>
+						<hr class="each-hr"/>
+						<p>7,936</p>
+					</div>
+					<div class="each">
+						<p>Mon, 23 sep</p>
+						<hr class="each-hr"/>
+						<p>7,936</p>
+					</div>
+					<div class="each">
+						<p>Tue, 24 sep</p>
+						<hr class="each-hr"/>
+						<p>7,936</p>
+					</div>
+					<div class="each">
+						<i class="fa fa-caret-right" style="font-size:48px"></i>
+					</div>
+				</div>
+
+				<div class="flight-details-title">
+					<p style="color: red;">Airlines <i class="fa fa-caret-up" style="color: red;"></i></p>
+					<p>Depart</p>
+					<p>Duration</p>
+					<p>Arrival</p>
+					<p>Price</p>
+				</div>
+
+				<div class="flight-name">
+					<div class="flight-name-email-checkbox">
+						<input type="checkbox">
+						<span>Email</span>
+						
+					</div>
+					<div class="plane-company">
+						<img src="https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/57/7d/7d/577d7d67-daba-1253-87f6-a2c737492a7b/AppIcon-0-1x_U007emarketing-0-85-220-2.png/246x0w.jpg" height="50px" width="50px">
+						<div class="plane-company-model">
+							<p class="plane-company-model-head">VISTARA</p>
+							<p class="plane-company-model-no">UK-995</p>
+						</div>
+					</div>
+					<div class="journey-departure-and-arrival">
+						<div class="journey-stop">
+							<span class="journey-stop-time dstnc">21:00</span>
+							<span class="journey-stop-time dstnc" >2h 15m</span>
+							<span class="journey-stop-time dstnc">23:00</span>
+							<hr class="journey-stop-hr strt-end">
+							<span class="journey-stop-time dstnc">DEL</span>
+							<span class="journey-stop-time dstnc">Nonstop</span>
+							<span class="journey-stop-time dstnc">BOM</span>
+						</div>
+					</div>
+					<div class="price-button">
+						<div>
+							<p>8,35290</p>
+						</div>
+					</div>
+					
+				</div>
+
+				<div class="flight-details">
+					<div>
+						<Span>SEAT - 4 LEFT | </Span>
+						<Span>CIB -15 KG | </Span>
+						<Span>FREE MEAL | </Span>
+						<Span>REFUNDABLE | </Span>
+						<Span class="rs">Rs. 2,569</Span>
+					</div>
+					<div  class="f-d">
+						<span>Flight Details</span>
+						<i class="fa fa-caret-up" style="font-size:24px"></i>
+					</div>
+				</div>
+
+				<div class="details-depth">
+					<div class="air-journey">
+						<p class="detail-head">Flight Detail</p>
+						<i class="fa fa-times-circle" style="font-size:24px; color: red;"></i>
+					</div>
+					<hr class="details-depth-hr"/>
+					<div>
+						<div class="fare-summary">
+							<div class="flight-detail-fare">
+								<p>ITINERARY | </p>
+								<p>FARE SUMMARY</p>
+							</div>
+							<div>
+								<p class="pckg">Rs. 8,35290</p>
+							</div>
+						</div>
+					</div>
+					<hr class="fare-summary-hr"/>
+
+					<div class="air-journey-duration">
+						<div class="plane-company">
+							<img src="https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/57/7d/7d/577d7d67-daba-1253-87f6-a2c737492a7b/AppIcon-0-1x_U007emarketing-0-85-220-2.png/246x0w.jpg" height="50px" width="50px">
+							<div class="plane-company-model">
+								<p class="plane-company-model-head">VISTARA</p>
+								<p class="plane-company-model-no">UK-995</p>
+							</div>
+						</div>
+						<div class="devider">
+							<hr/>
+						</div>
+						<div class="journey-to">
+							<p>DEL [NEW DELHI]</p>
+							<p class="journey-to-time">21:00</p>
+							<p>THU, 20 SEP 2018</p>
+							<p class="journey-to-terminal">TERMINAL-3</p>
+						</div>
+						<div class="journey-stop">
+							<p class="journey-stop-time">2h 15m</p>
+							<hr class="journey-stop-hr">
+							<p class="journey-stop-time">Nonstop</p>
+						</div>
+						<div class="journey-to">
+							<p>DEL [NEW DELHI]</p>
+							<p class="journey-to-time">21:00</p>
+							<p>THU, 20 SEP 2018</p>
+							<p class="journey-to-terminal">TERMINAL-3</p>
+						</div>
+					</div>
+					<div class="total-journey-duration">
+						<div>
+							<hr class="total-journey-duration-start"/>
+						</div>
+						<div class="total-journey-duration-txt">
+							<i class="fa fa-clock-o" aria-hidden="true"></i>
+							<span>Total Journey Duration : </span>
+							<span class="total-journey-duration-txt-time">7h 50m</span>
+						</div>
+						<div>
+							<hr class="total-journey-duration-end"/>
+						</div>
+					</div>
+					<div class="journey-benefits">
+						<Span class="rs journey-benefits-service">Rs. 2,569</Span>
+						<span class="journey-benefits-service"> | REFUNDABLE</span>
+						<span class="journey-benefits-service"> | FREE MEALS</span>
+						<span class="journey-benefits-service"> | BAGGAGE : 25 KG</span>
+						<span class="journey-benefits-service"> | CABIN BAGGAGE : --</span>
+						<span class="journey-benefits-service"> | 8 SEATS{S} LEFT</span>
+					</div>
+					<div>
+						<hr class="journey-benefits-hr" />
+					</div>
+					<div class="disclaimar">
+						<p>Disclaimer: Passenger of all Nationalities are advised to confirm will respective embassies for all visa requirements. This communication is for all informational and for general purposes only & YuvaTrip.com assumes no responsibity, legal or otherwise, of its applicablity & accuracy.</p>
+					</div>
+				</div>
+
+
+				<div class="flight-grand-charges-and-warnings">
+					<div>
+						<div class="air-journey">
+							<p class="detail-head">Flight Detail</p>
+							<i class="fa fa-times-circle" style="font-size:24px; color: red;"></i>
+						</div>
+						<hr class="details-depth-hr"/>
+						<div>
+							<div class="fare-summary">
+								<div class="flight-detail-fare">
+									<p>ITINERARY | </p>
+									<p>FARE SUMMARY</p>
+								</div>
+								<div>
+									<p class="pckg">Rs. 8,35290</p>
+								</div>
+							</div>
+						</div>
+						<hr class="fare-summary-hr"/>
+					</div>
+
+					<div class="flight-grand-charges">
+						<div class="flight-grand-charges-national">
+							<div class="flight-grand-charges-national-header">
+								<div class="flight-grand-charges-national-title1">
+									<p class="num num2">Adult x1</p>
+								</div>
+								<div class="flight-grand-charges-national-title2">
+									<p class="txt">BASE FARE</p>
+									<p class="num">12823</p>
+								</div>
+								<div class="flight-grand-charges-national-title3">
+									<p class="txt">TAXES</p>
+									<p class="num">2090</p>
+								</div>
+								<div class="flight-grand-charges-national-title4">
+									<p class="txt">TOTAL</p>
+									<p class="num">15783</p>
+								</div>
+							</div>
+
+							<div class="flight-grand-charges-national-body">
+								<div>
+									<span>Published</span>
+									<span class="flight-grand-charges-national-body2">15783.00</span>
+									<div>
+										<hr class="flight-grand-charges-national-body2-hr"/>
+									</div>
+								</div>
+								<div>
+									<span>Discount [-]</span>
+									<span class="flight-grand-charges-national-body2">0.00</span>
+									<div>
+										<hr class="flight-grand-charges-national-body2-hr"/>
+									</div>
+								</div>
+								<div>
+									<span>Offered</span>
+									<span class="flight-grand-charges-national-body2">15783.00</span>
+									<div>
+										<hr class="flight-grand-charges-national-body2-hr"/>
+									</div>
+								</div>
+								<div>
+									<span>Service Charges [+]</span>
+									<span class="flight-grand-charges-national-body2">0.00</span>
+									<div>
+										<hr class="flight-grand-charges-national-body2-hr"/>
+									</div>
+								</div>
+								<div>
+									<span>GST [+]</span>
+									<span class="flight-grand-charges-national-body2">0.00</span>
+									<div>
+										<hr class="flight-grand-charges-national-body2-hr"/>
+									</div>
+								</div>
+								<div>
+									<span>TDS [+]</span>
+									<span class="flight-grand-charges-national-body2">0.00</span>
+									<div>
+										<hr class="flight-grand-charges-national-body2-hr"/>
+									</div>
+								</div>
+								<div>
+									<span class="paying-amount">You Pay</span>
+									<span class="flight-grand-charges-national-body2 paying-amount">Rs. 4585.00</span>
+								</div>
+							</div>
+						</div>
+						<div class="flight-grand-charges-international">
+							<div class="flight-grand-charges-national-header">
+								<p class="num">Charges *</p>
+								<p class="num">Domestic</p>
+								<p class="num">International</p>
+							</div>
+							<div class="flight-grand-charges-international-body">
+								<div class="extra-charges">
+									<div class="head">
+										<span>Online Cancellation / Rescheduling</span>
+									</div>
+									<div>
+										<span>INR 250</span>
+									</div>
+									<div>
+										<span>INR 250</span>
+									</div>
+									<div>
+										<hr class="flight-grand-charges-national-body2-hr" />
+									</div>
+								</div>
+								<div class="extra-charges">
+									<div class="head">
+										<span>Online Cancellation / Rescheduling</span>
+									</div>
+									<div>
+										<span>INR 1000</span>
+									</div>
+									<div>
+										<span>INR 500</span>
+									</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="non-refundable-fares">
+					<div>
+						<p>These Are Non Refundable Fares. There is no Minimum Stay requirement, There is no Maximum Stay requirement</p>
+					</div>
+					<div>
+						<hr  class="details-depth-hr"/>
+					</div>
+					<div>
+						<h2>Adult</h2>
+					</div>
+					<div>
+						<ul>
+							<li><strong>Revalidation/ Reissue</strong></li>
+							<li>Fare Component <strong>VNTBFYS</strong>   Sector <strong>DEL-BOM</strong></li>
+							<li>Revalidation before/after departure, including failure to show at first/subsequent flights(s): <strong>Not Allowed</strong></li>
+							<li>Reissue, including failure to show at subsequent flights: <strong>Not Allowed</strong></li>
+							<li>Prior to Departure of journey</li>
+							<li>Reissue: <strong>Allowed with Restrictions</strong></li>
+						</ul>
+					</div>
+				</div>
+
+
+				<div class="journey-benefits">
+						<Span class="rs journey-benefits-service">Rs. 2,569</Span>
+						<span class="journey-benefits-service"> | REFUNDABLE</span>
+						<span class="journey-benefits-service"> | FREE MEALS</span>
+						<span class="journey-benefits-service"> | BAGGAGE : 25 KG</span>
+						<span class="journey-benefits-service"> | CABIN BAGGAGE : --</span>
+						<span class="journey-benefits-service"> | 8 SEATS{S} LEFT</span>
+					</div>
+					<div>
+						<hr class="journey-benefits-hr" />
+					</div>
+			</div>
+		</div>
+	</main>
+
+</body>
+</html>
